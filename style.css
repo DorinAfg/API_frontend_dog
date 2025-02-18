@@ -38,35 +38,39 @@ h1 {
     overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 12, 2, 0.2);
     transition: transform 0.3s ease;
-}
-
-.dog-image-container:hover {
-    transform: scale(1.05);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .dog-image-container img {
     width: 200px;
-    height: 200px;
+    height: 200px; 
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 10px; /* מקנה לתמונה פינות עגלולות */
 }
 
+/*All the buttons design*/
 button {
     padding: 15px 20px;
     font-size: 20px;
+    /*Spaces between buttons*/
+    margin: 5px;
     font-family: 'Lucida Sans Unicode';
     font-weight: bold;
+    /*Mouse cursor design*/
     cursor: pointer;
     background-color: #ffffff;
     color: #9798ff;
     border: none;
     border-radius: 5px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
 }
 
+/*The button design after clicked on it*/
 button:hover {
-    background-color: #9798ff;
+    background-color: #ffffff;
 }
 
 button:active {
