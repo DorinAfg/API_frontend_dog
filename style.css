@@ -42,12 +42,13 @@ h1 {
     width:150px;
 }
 
+/*
 #breed-selector option:hover {
     background-color: #e67e22;
     color: white;
     
 }
-
+*/
 
 #dog-gallery {
     display: flex;
@@ -73,7 +74,7 @@ h1 {
     width: 200px;
     height: 200px; 
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 10px; /* מקנה לתמונה פינות עגלולות */
 }
 
 /*All the buttons design*/
